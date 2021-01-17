@@ -20,7 +20,7 @@ connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 });
 
-// all routes
+// all routes 
 const earthRouter = require('./api/routes/RouteModel');
 const userRouter = require('./api/routes/userModel');
 
